@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Messenger</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Envie uma mensagem</h1>
+        <form method="POST" action="/">
+            {{ form.hidden_tag() }}
+            <div class="form-group">
+                {{ form.message.label }}
+                {{ form.message(class="form-control") }}
+            </div>
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+
+        <h2>Mensagens</h2>
+        <ul class="messages-list">
+            {% for msg in messages %}
+                <li class="message-item">
+                    <strong>Criptografada:</strong> {{ msg.encrypted }}<br>
+                    <strong>Descriptografada:</strong> {{ msg.decrypted }}
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+</html>
