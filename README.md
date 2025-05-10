@@ -78,13 +78,9 @@ A aplicação usa tokens CSRF integrados com Flask-WTF. Para comprovar sua efic�
 
 ## 📸 Capturas de Tela
 
-| Interface inicial | Mensagem enviada |
-|-------------------|------------------|
-| ![interface](screenshots/interface.png) | ![mensagem](screenshots/mensagem_enviada.png) |
-
-| Lista de mensagens | Erro CSRF |
-|--------------------|-----------|
-| ![lista](screenshots/lista_mensagens.png) | ![erro](screenshots/erro_csrf.png) |
+secure_messenger/prints/Captura de tela 2025-05-09 205031.png
+secure_messenger/prints/Captura de tela 2025-05-09 205229.png
+secure_messenger/prints/Captura de tela 2025-05-09 205301.png
 
 ---
 
