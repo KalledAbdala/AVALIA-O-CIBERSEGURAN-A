@@ -78,11 +78,9 @@ A aplicação usa tokens CSRF integrados com Flask-WTF. Para comprovar sua efic�
 
 ## 📸 Capturas de Tela
 
-https://github.com/KalledAbdala/AVALIA-O-CIBERSEGURAN-A/blob/main/secure_messenger/prints/Captura%20de%20tela%202025-05-09%20205031.png
-
-https://github.com/KalledAbdala/AVALIA-O-CIBERSEGURAN-A/blob/main/secure_messenger/prints/Captura%20de%20tela%202025-05-09%20205229.png
-
-https://github.com/KalledAbdala/AVALIA-O-CIBERSEGURAN-A/blob/main/secure_messenger/prints/Captura%20de%20tela%202025-05-09%20205301.png
+![Captura de tela 2025-05-09 205031](https://github.com/user-attachments/assets/16091cdb-88d1-4efa-9ade-2852cfeb85c0)
+![Captura de tela 2025-05-09 205229](https://github.com/user-attachments/assets/ef315777-ae7e-4717-b188-45a3df2198f1)
+![Captura de tela 2025-05-09 205301](https://github.com/user-attachments/assets/b21ae38e-4e2c-4401-ba42-59c8cb0fe097)
 
 
 ---
